@@ -595,15 +595,15 @@
             </div>
 
             <form class="contact-form glass-panel reveal" id="contactForm"
-                action="https://formspree.io/f/sauntanisha@gmail.com" method="POST">
+                onsubmit="event.preventDefault(); window.open('https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform', '_blank');">
                 <div class="input-group">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                 </div>
                 <input type="text" name="subject" placeholder="Subject" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn primary-btn submit-btn">Send Message <i
-                        class="fas fa-paper-plane"></i></button>
+                <button type="submit" class="btn primary-btn submit-btn">Open Google Form <i
+                        class="fas fa-external-link-alt"></i></button>
             </form>
         </div>
     </section>
