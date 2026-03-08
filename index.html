@@ -595,13 +595,13 @@
             </div>
 
             <form class="contact-form glass-panel reveal" id="contactForm"
-                onsubmit="event.preventDefault(); alert('In a real environment, this would send an email. Since this is a static site for Vercel, you can link this to a service like Formspree!');">
+                action="https://formspree.io/f/sauntanisha@gmail.com" method="POST">
                 <div class="input-group">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
                 </div>
-                <input type="text" placeholder="Subject" required>
-                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary-btn submit-btn">Send Message <i
                         class="fas fa-paper-plane"></i></button>
             </form>
