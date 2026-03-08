@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Saun Tanisha Pushkar</title>
+    <style>
+        /* Modern Serif for premium look (Times New Roman fallback for ATS) */
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Crimson Pro', 'Times New Roman', Times, serif;
+            color: #000000;
+            line-height: 1.25;
+            background-color: #ffffff;
+            font-size: 11pt;
+            padding: 0.4in 0.5in;
+        }
+
+        @page {
+            size: A4;
+            margin: 0.4in 0.5in;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            margin-bottom: 2px;
+        }
+
+        .links {
+            font-size: 9.5pt;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .links a {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 14px;
+            clear: both;
+        }
+
+        h2 {
+            font-size: 12pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 1px;
+            margin-bottom: 6px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: 700;
+            font-size: 11.5pt;
+        }
+
+        .item-sub {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-style: italic;
+            font-size: 10.5pt;
+            margin-bottom: 3px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        li {
+            margin-bottom: 3px;
+            text-align: justify;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 5px;
+            line-height: 1.3;
+        }
+
+        .skill-cat {
+            font-weight: 700;
+        }
+
+        /* Prevent awkward splitting of entries but allow sections to break */
+        .item {
+            page-break-inside: avoid;
+        }
+
+        .links i {
+            font-size: 11pt;
+            margin-right: 2px;
+        }
+
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- Font Awesome for professional logos -->
+    <!-- Font Awesome for professional logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Saun Tanisha Pushkar</h1>
+        <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra |
+            <i class="fas fa-phone-alt"></i> +91 99600 41443 |
+            <i class="fas fa-envelope"></i> sauntanisha@gmail.com
+        </div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/tanisha-saun-341837291/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+            <a href="https://github.com/TanishaSaun"><i class="fab fa-github"></i> GitHub</a> |
+            <a href="https://leetcode.com/u/TanishaSaun/"><i class="fas fa-code"></i> LeetCode</a> |
+            <a href="https://www.codechef.com/users/for_cascade_18"><i class="fas fa-terminal"></i> CodeChef</a> |
+            <a href="https://www.kaggle.com/tanishasaun"><i class="fab fa-kaggle"></i> Kaggle</a> |
+            <a href="https://unstop.com/u/tanissau40020"><i class="fas fa-trophy"></i> Unstop</a>
+        </div>
+    </div>
+
+    <!-- Summary -->
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Impact-driven Full-Stack & AI/ML Developer and 3rd-year Diploma student at MSBTE. Specialized in engineering
+            high-impact AI/ML systems, professional model training, and Blockchain (Solana) integrations. Founder of
+            WisdomLand.in, a career growth and legal awareness platform. Expert in bridging complex Hardware IoT with
+            cloud ecosystems including Supabase, Firebase, and WordPress.
+        </p>
+    </section>
+
+    <!-- Experience -->
+    <section>
+        <h2>Work Experience</h2>
+
+        <!-- 1. WisdomLand -->
+        <div class="item">
+            <div class="item-row">
+                <span>Founder & Lead Developer</span>
+                <span>Feb 2024 – Present</span>
+            </div>
+            <div class="item-sub">
+                <span>WisdomLand (wisdomland.in)</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <p style="font-size: 10pt; margin-bottom: 4px; font-style: italic;">Career growth and legal awareness
+                platform designed to navigate professional journeys effectively.</p>
+            <ul>
+                <li>Developed a structured career lifecycle model integrating global scholarship tracking and internship
+                    progression.</li>
+                <li>Implemented employment rights education modules and structured interview mastery programs to empower
+                    job seekers.</li>
+                <li>Architected AI-driven career recommendations and salary negotiation strategies using modern web
+                    technologies.</li>
+                <li>Mission-focused development: Reduced early-career exploitation and improved job conversion rates
+                    through verified mentorship tools.</li>
+                <li>Built and maintained the entire platform on <b>WordPress</b>, managing domain procurement and
+                    hosting
+                    workflows.</li>
+            </ul>
+        </div>
+
+        <!-- 2. Freelance Developer (Current) -->
+        <div class="item">
+            <div class="item-row">
+                <span>Freelance Developer & IT Consultant</span>
+                <span>June 2024 – Present</span>
+            </div>
+            <div class="item-sub">
+                <span>Self-Employed (freelancer.in/dashboard)</span>
+                <span>Mumbai, MH / Remote</span>
+            </div>
+            <ul>
+                <li>Delivering high-impact Full-Stack IT projects including scalable React Native and Next.js
+                    applications for diverse clients.</li>
+                <li>Specializing in the development and maintenance of custom AI tools and professional web solutions.
+                </li>
+                <li>Conducting professional mobile device diagnostics and repairs, resolving complex hardware/software
+                    issues for a wide client base.</li>
+            </ul>
+        </div>
+
+        <!-- 3. Fairpick -->
+        <div class="item">
+            <div class="item-row">
+                <span>Brand Promoter</span>
+                <span>Jan 03, 2024 – June 14, 2024</span>
+            </div>
+            <div class="item-sub">
+                <span>Fairpick Private Limited</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul>
+                <li>Led and collaborated with a team to promote the brand on multiple digital platforms, increasing
+                    engagement by over 30%.</li>
+                <li>Designed marketing strategies, including social media campaigns, to boost visibility and product
+                    sales.</li>
+                <li>Worked with cross-functional teams to optimize customer outreach and marketing efficiency.</li>
+                <li>Contributed to market research, analyzing customer behavior and providing feedback for product
+                    improvement.</li>
+            </ul>
+        </div>
+
+        <!-- 4. Mobile Repairing Instructor -->
+        <div class="item">
+            <div class="item-row">
+                <span>Freelance Mobile Repairing Instructor</span>
+                <span>Feb 12, 2022 – Feb 13, 2023</span>
+            </div>
+            <div class="item-sub">
+                <span>Independent</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul>
+                <li>Conducted hands-on training for mobile diagnosis and repair, managing the complete student lifecycle
+                    from inquiry to admission.</li>
+                <li>Developed custom training programs for beginners and advanced learners, focusing on real-time repair
+                    scenarios.</li>
+                <li>Offered one-on-one troubleshooting consultations to provide effective repair solutions for complex
+                    device issuesly.</li>
+            </ul>
+        </div>
+
+        <!-- 5. Elite Forums Internship -->
+        <div class="item">
+            <div class="item-row">
+                <span>Software Engineer Intern</span>
+                <span>June 2024 – Aug 2024</span>
+            </div>
+            <div class="item-sub">
+                <span>Elite Forums</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul>
+                <li>Optimized Machine Learning model training pipelines, achieving significant improvements in
+                    classification accuracy and inference latency.</li>
+                <li>Collaborated on the development of scalable backend systems to support real-time data processing and
+                    model serving.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Project Section (XYZ Formula) -->
+    <section>
+        <h2>Detailed Projects</h2>
+
+        <div class="item">
+            <div class="item-row">
+                <span>EduLink / eduIntel – AI Learning Portal</span>
+                <span style="font-weight: 400; font-size: 9pt;">GitHub: TanishaSaun/eduIntel</span>
+            </div>
+            <ul>
+                <li>Accomplished a 40% reduction in academic support queries by architecting an <b>NLP-based</b> AI
+                    Tutor
+                    system in a React environment.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>HealthChain AI – Solana Healthcare Platform</span>
+                <span style="font-weight: 400; font-size: 9pt;">Tech: Solana, Web3, IoT</span>
+            </div>
+            <ul>
+                <li>Reduced transaction overhead by 95% while securing health data by implementing a <b>Solana</b> Web3
+                    payment layer and ESP8266 IoT sensors.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>AI Insurance Risk Prediction</span>
+                <span style="font-weight: 400; font-size: 9pt;">Tech: Python, FastAPI</span>
+            </div>
+            <ul>
+                <li>Engineered high-accuracy claim forecasting as measured by a 92% F1-score, deploying models via a
+                    high-latency <b>FastAPI</b> architecture.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>AI-Based IoT Food Quality Detection</span>
+                <span style="font-weight: 400; font-size: 9pt;">Tech: Python, ESP8266, TF Lite</span>
+            </div>
+            <ul>
+                <li>Automated food quality assessment using edge-AI models on ESP8266, enabling real-time
+                    fruit/vegetable freshness classification.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Smart Medical Pre-Diagnosis AI</span>
+                <span style="font-weight: 400; font-size: 9pt;">Tech: Python, NLP</span>
+            </div>
+            <ul>
+                <li>Developed an intelligent diagnostic assistant capable of structured symptom analysis and medical
+                    report summarization.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Health Management System</span>
+                <span style="font-weight: 400; font-size: 9pt;">GitHub: TanishaSaun/HEALTH</span>
+            </div>
+            <ul>
+                <li>Built a centralized database for secure medical record management, appointment scheduling, and
+                    privacy-compliant data encryption.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Smart Task Evaluator</span>
+                <span style="font-weight: 400; font-size: 9pt;">GitHub: TanishaSaun/smart-task-evaluator</span>
+            </div>
+            <ul>
+                <li>Increased project delivery speed by 25% through the implementation of automated task scoring and
+                    performance visualization dashboards.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Diploma in Artificial Intelligence and Machine Learning</span>
+                <span>2024 – Present</span>
+            </div>
+            <div class="item-sub">
+                <span>VIVA Institute of Technology (MSBTE)</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul style="list-style: none; margin-left: 0;">
+                <li>• <b>Status:</b> Final Year (3rd Year)</li>
+                <li>• <b>Subjects:</b> Mathematics, Science, English, AI Systems, Model Deployment.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Higher Secondary School (12th Grade)</span>
+                <span>2022 – 2023</span>
+            </div>
+            <div class="item-sub">
+                <span>Thakur Vidya Mandir High School and Junior College</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul style="list-style: none; margin-left: 0;">
+                <li>• <b>Specialization:</b> Science (Physics, Chemistry, Biology, Mathematics) with Information
+                    Technology
+                    (IT).</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-row">
+                <span>Secondary School (10th Grade)</span>
+                <span>2020 – 2021</span>
+            </div>
+            <div class="item-sub">
+                <span>Mother Mary English High School and Junior College</span>
+                <span>Mumbai, MH</span>
+            </div>
+            <ul style="list-style: none; margin-left: 0;">
+                <li>• <b>Core Subjects:</b> Mathematics, Science, English.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <span class="skill-cat">Core Competencies:</span>
+            <span>AI Chatbots, NLP Integration, ML Training & Deployment, Full-Stack Architecture.</span>
+        </div>
+        <div class="skills-grid">
+            <span class="skill-cat">Web & Mobile:</span>
+            <span>React Native, Next.js, React, Flutter, WordPress, Supabase, Firebase.</span>
+        </div>
+        <div class="skills-grid">
+            <span class="skill-cat">Languages:</span>
+            <span>Python (Advanced), JavaScript, Dart, Java, PHP, R, SQL, C++, HTML/CSS.</span>
+        </div>
+        <div class="skills-grid">
+            <span class="skill-cat">Infrastructure:</span>
+            <span>Netlify, GoDaddy, MySQL, PostgreSQL, Linux, IoT (ESP8266), Solana Web3.</span>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2>Certifications & Achievements</h2>
+        <ul style="list-style: none; margin-left: 0;">
+            <li>• <b>Microsoft Student Ambassador (2026):</b> Global recognition for technical leadership and community
+                building. (Jan 2026)</li>
+            <li>• <b>Oracle Cloud Infrastructure AI Foundations Associate:</b> Certified expertise in AI/ML fundamentals
+                on Oracle Cloud. (Jan 2026)</li>
+            <li>• <b>GenAI Hackathon Mumbai 2025 (Google Developers):</b> Grand Finale finalist in generative AI
+                innovation. (Dec 2025)</li>
+            <li>• <b>Smart India Hackathon (SIH):</b> Participation in the college-level internal hackathon for solving
+                complex societal challenges through innovative software solutions. (2023-2024)</li>
+            <li>• <b>Prompt Engineering & AI (St. John):</b> Certification in advanced LLM prompting and AI-driven
+                workflow optimization. (Nov 2024)</li>
+            <li>• <b>DSA Mastery with Java (ExcelR):</b> Intensive training in Data Structures, Algorithms, and logical
+                problem-solving. (Dec 2025)</li>
+            <li>• <b>Java Full Stack Development (Code For Success):</b> Mastery in end-to-end web architecture and Java
+                backend systems. (May 2025)</li>
+            <li>• <b>Analysis with Python (I.T. Vedant):</b> Specialized certification in data manipulation and
+                statistical analysis. (Nov 2025)</li>
+            <li>• <b>Getting Started with JavaScript (CodeSignal):</b> Recognition for algorithmic proficiency in modern
+                JavaScript. (Aug 2025)</li>
+            <li>• <b>Unstop - Code: Automata (2nd Place):</b> National-level finalist in competitive programming and
+                healthcare tech implementation. (Feb 2026)</li>
+            <li>• <b>Spectrum Hackathon (SVKM):</b> Awarded for excellence in computer engineering hackathon finals.
+                (Feb 2026)</li>
+            <li>• <b>AGENTX Hackathon (edQuest):</b> Advanced participation in AI-specialist driven innovation
+                challenges. (Feb 2026)</li>
+            <li>• <b>Social & Scientific Contributions:</b> Verified participation in New Criminal Laws Exhibition (Nov
+                2025), Climate Change Management (Dec 2025), and CPR Awareness (Oct 2025).</li>
+        </ul>
+    </section>
+
+    <!-- Leadership -->
+    <section>
+        <h2>Leadership</h2>
+        <p>
+            Having thrived in both the hands-on world of mobile repairing and the analytical realm of AI/ML, I’ve
+            cultivated a blend of technical expertise, clear communication, and innovative problem-solving. Proficient
+            in Python, Java, and AI tools, I am poised to transition seamlessly into dynamic, evolving fields with
+            unwavering confidence.
+        </p>
+    </section>
+
+    <!-- Declaration -->
+    <section>
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that all the information provided above is true and correct to the best of my knowledge and
+            belief.
+        </p>
+        <div style="margin-top: 20px; display: flex; justify-content: space-between;">
+            <div>
+                <b>Place:</b> Mumbai, MH<br>
+                <b>Date:</b> March 08, 2026
+            </div>
+            <div style="text-align: right;">
+                <b>(Tanisha Saun)</b>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
